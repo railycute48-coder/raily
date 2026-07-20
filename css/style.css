@@ -1,0 +1,20 @@
+/* Simple responsive styles */
+body { font-family: Arial, sans-serif; margin:0; color:#222; background:#f7f7f7; }
+.container { max-width:1000px; margin:20px auto; padding:0 16px; }
+.site-header { background:#0a4; color:#fff; padding:12px 0; }
+.site-header .container { display:flex; align-items:center; justify-content:space-between; }
+.site-header .logo { font-weight:bold; color:#fff; text-decoration:none; }
+.nav a { color:#fff; margin-left:12px; text-decoration:none; }
+.cards { display:flex; gap:12px; margin-top:20px; flex-wrap:wrap; }
+.card { background:#fff; padding:16px; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.08); flex:1 1 200px; text-align:center; text-decoration:none; color:#333; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:12px; }
+.button { display:inline-block; padding:8px 12px; background:#0074d9; color:#fff; border-radius:4px; text-decoration:none; }
+.narrow { max-width:520px; margin:20px auto; }
+label { display:block; margin-bottom:8px; }
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="number"], select, textarea { width:100%; padding:8px; margin-top:4px; box-sizing:border-box; }
+button { padding:8px 12px; cursor:pointer; }
+.table { width:100%; border-collapse:collapse; margin-top:12px; background:#fff; }
+.table th, .table td { padding:8px; border:1px solid #eee; text-align:left; }
+.error { background:#ffd2d2; padding:8px; border-left:4px solid #ff3b3b; margin-bottom:12px; }
+.success { background:#d2ffd8; padding:8px; border-left:4px solid #3bff6e; margin-bottom:12px; }
+.admin-header { background:#222; color:#fff; padding:8px; }
